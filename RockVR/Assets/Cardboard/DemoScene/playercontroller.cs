@@ -22,12 +22,23 @@ public class playercontroller : MonoBehaviour {
 			Debug.Log(coordinates);
 			previouslyDone = true;
 		}
-		int x = System.Convert.ToInt32 (coordinates [1]);
-		int y = System.Convert.ToInt32 (coordinates [3]);
-		float newX = 0 + (x * 2);
-		newX -= 96; //for some reason unity jumps my cardboard main to 96,-96
-		float newZ = 0 - (y * 2);
-		newZ += 96;
+		string x = "";
+		string y = "";
+		int index = 1;
+		char nextchar = '0';
+		while (nextchar != ',') {
+			x += coordinates[index];
+			index++;
+			nextchar = coordinates[index];
+		}
+		index++;
+		while (nextchar != '}') {
+			y += coordinates[index];
+			index++;
+			nextchar = coordinates[index];
+		}
+		float newX = 0 + (float.Parse(x) * 2);
+		float newZ = 0 - (float.Parse(y) * 2);
 		transform.position = new Vector3(newX, 1.5f,newZ);
 		
 	}
