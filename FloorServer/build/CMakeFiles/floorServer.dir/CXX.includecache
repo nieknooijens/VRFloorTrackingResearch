@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/niek/Projects/VRFloorTrackingResearch/FloorServer/main.cpp
+iostream
+-
+SDL2/SDL.h
+-
+boost/network/protocol/http/server.hpp
+-
+string
+-
+sstream
+-
+vector
+-
+
