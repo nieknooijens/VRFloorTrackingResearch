@@ -3,7 +3,7 @@ using System.Collections;
 
 public class playercontroller : MonoBehaviour {
 	
-	public string url = "192.168.1.154:1111"; //FIXME hardcoded URL
+	public string url = "http://192.168.1.184:1111"; //FIXME hardcoded URL
 	public string coordinates = "{0,0}";
 	public WWW mycoord;
 	private bool previouslyDone = true;
@@ -26,7 +26,7 @@ public class playercontroller : MonoBehaviour {
 		int y = System.Convert.ToInt32 (coordinates [3]);
 		float newX = 0 + (x * 2);
 		newX -= 96; //for some reason unity jumps my cardboard main to 96,-96
-		float newY = 0 - (y * 2);
+		float newZ = 0 - (y * 2);
 		newZ += 96;
 		transform.position = new Vector3(newX, 1.5f,newZ);
 		
