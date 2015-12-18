@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cardboard/DemoScene/playercontroller.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../VUI-prototype/Assets/scripts/Raycaster.cs">
     <Files>
-      <File FileName="Assets/Cardboard/DemoScene/playercontroller.cs" Line="41" Column="41" />
+      <File FileName="../../VUI-prototype/Assets/scripts/Raycaster.cs" Line="84" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class playercontroller : MonoBehaviour {
 	
-	public string url = "http://192.168.1.184:1111"; //FIXME hardcoded URL
+	public string url; //FIXME hardcoded URL
 	public string coordinates = "{0,0}";
 	public WWW mycoord;
 	private bool previouslyDone = true;
