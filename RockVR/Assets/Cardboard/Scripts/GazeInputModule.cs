@@ -88,7 +88,7 @@ public class GazeInputModule : BaseInputModule {
     }
     eventSystem.SetSelectedGameObject(null, GetBaseEventData());
     if (cursor != null) {
-      cursor.SetActive(false);
+      cursor.SetActive(true);
     }
   }
 
@@ -155,7 +155,7 @@ public class GazeInputModule : BaseInputModule {
     }
     var go = pointerData.pointerCurrentRaycast.gameObject;
     Camera cam = pointerData.enterEventCamera;  // Will be null for overlay hits.
-    cursor.SetActive(go != null && cam != null && showCursor);
+    cursor.SetActive(showCursor);
     if (cursor.activeInHierarchy) {
       // Note: rays through screen start at near clipping plane.
       float dist = pointerData.pointerCurrentRaycast.distance + cam.nearClipPlane;
