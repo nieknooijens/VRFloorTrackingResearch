@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/raycaster.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../incrementalTests/Assets/playercontroller.cs">
     <Files>
-      <File FileName="Assets/raycaster.cs" Line="1" Column="1" />
-      <File FileName="Assets/Cardboard/Scripts/CardboardHead.cs" Line="1" Column="1" />
+      <File FileName="../incrementalTests/Assets/playercontroller.cs" Line="23" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
