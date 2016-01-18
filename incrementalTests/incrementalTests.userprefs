@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/playercontroller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../RockVR/Assets/Cardboard/DemoScene/playercontroller.cs">
     <Files>
-      <File FileName="Assets/playercontroller.cs" Line="23" Column="52" />
+      <File FileName="../RockVR/Assets/Cardboard/DemoScene/playercontroller.cs" Line="45" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

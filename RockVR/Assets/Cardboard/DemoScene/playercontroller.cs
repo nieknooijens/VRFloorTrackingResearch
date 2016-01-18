@@ -42,6 +42,7 @@ public class playercontroller : MonoBehaviour {
 			float newX = 0 + (float.Parse (x) * 2);
 			float newZ = 0 - (float.Parse (y) * 2);
 			transform.position = new Vector3 (newX, 1.5f, newZ);
+			previouscoordinates = coordinates;
 		} else {
 			float moveHorizontal = Input.GetAxis ("Horizontal");
 			float moveVertical = Input.GetAxis ("Vertical");
